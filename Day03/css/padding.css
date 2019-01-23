@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .out {
+    background-color: aqua;
+    padding: 100px 0;
+}
+.in {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+} */
+/* Отталкиваемся от родителя padding, от других блоков margin */
+
+.out {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://artfiles.alphacoders.com/875/87572.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}

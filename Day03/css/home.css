@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 50px 40px;
+}
+a:hover {
+    color: #03a9f4;
+}
+a {
+    text-decoration: none;
+}
+div {
+    display: inline-block;
+    max-width: 470px;
+    display: inline-block;
+}
