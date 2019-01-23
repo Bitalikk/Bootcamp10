@@ -1,9 +1,33 @@
-p {
-    color: blueviolet;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
-.text-color {
-    color: purple;
+.logo {
+    height: 100px;
+    background-color: red;
 }
-#color {
-    color: red;
+.navigation {
+    height: 50px;
+    background-color: aqua;
+}
+.content {
+    display: inline-block;
+    height: 50px;
+    width: 70%;
+    background-color: blue;
+    margin-bottom: -4px;
+    margin-right: -4px;
+}
+.sidebar {
+    display: inline-block;
+    height: 50px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-bottom: -4px;
+}
+.foot {
+    height: 50px;
+    background-color: black;
 }
