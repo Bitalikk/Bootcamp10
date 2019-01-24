@@ -5,10 +5,12 @@ font-family: 'Alex Brush', cursive; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 .wrapper {
     max-width: 960px;
     margin: auto;
+    padding-bottom: 30px;
 }
 .parallax {
     background-attachment: fixed;
@@ -16,7 +18,11 @@ font-family: 'Alex Brush', cursive; */
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+section {
+    margin-bottom: 30px;
 }
 .forJapan {
     background-image: url(../img/architecture-building-castle-402028.jpg)
@@ -30,16 +36,29 @@ font-family: 'Alex Brush', cursive; */
 .japan {
     font-family: 'Noto Serif SC', serif;
 }
+.fJapan {
+    font-size: 30px;
+    color: red;
+}
+
 .italy {
     font-family: 'Alex Brush', cursive;
     font-size: 25px;
     text-indent: 50px;
+}
+.fItaly {
+    font-size: 30px;
+    color: yellow;
 }
 .china {
     font-family: 'Aldrich', sans-serif;
     letter-spacing: 3px;
     text-indent: 50px;
     word-spacing: 6px;
+}
+.fChina {
+    font-size: 30px;
+    color: green;
 }
 .name {
     text-align: center;
