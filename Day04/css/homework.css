@@ -15,7 +15,7 @@
     margin-bottom: 100px;
 }
 .wrapper {
-    max-width: 900px;
+    max-width: 650px;
     margin: auto;
 }
 .topHeader {
@@ -171,7 +171,7 @@
     padding-top: 20px;
     padding-bottom: 50px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .chapterFoot {
     width: 300px;
@@ -191,4 +191,17 @@
     font-size: 16px;
     color: white;
     letter-spacing: 2px;
+}
+.bottom-line {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 65px;
+}
+.bottomImg {
+    width: 35px;
+    height: 37px;
+    margin-right: 35px;
+}
+.bottomLogo {
+    display: inline-block;
 }
