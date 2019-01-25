@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* outline: 1px solid red; */
+}
+.top {
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(to right, #0f20272c, #203a4341, #2c536459), url(../img/header/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    width: 940px;
+    margin: auto;
+    padding-top: 15px;
+}
+.logo {
+    max-width: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+.logo::after {
+    content: "tajam";
+    vertical-align: top;
+}
+.logo:hover {
+    color: #0daead;
+}
+.menu {
+    width: 526px;
+    list-style: none;
+    float: right;
+}
+menu:last-child {
+    margin-right: 0;
+}
+.topMenu {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    float: left;
+    margin-right: 20px;
+}
+.menuHref {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.menuHref:hover {
+    color: #0daead;
+}

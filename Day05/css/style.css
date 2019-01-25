@@ -1,0 +1,49 @@
+.grad {
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle at center, #ff0000, #0000ff);
+}
+.grad:hover {
+    cursor: pointer;
+}
+
+li {
+    font-size: 40px;
+    color: blueviolet;
+    list-style: none;
+}
+li:first-child {
+    color: black;
+}
+li:nth-child(3) {
+    color: gold;
+}
+.conteiner {
+    font-size: 40px;
+    width: 500px;
+    /* height: 500px; */
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.boxFloat {
+    width: 100px;
+    height: 200px;
+    background-color: #ff0000;
+}
+.leftFloat {
+    float: left;
+    margin-right: 20px;
+}
+.rightFloat {
+    float: left;
+    margin-right: 20px;
+}
+.center {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
