@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
     /* outline: 1px solid red; */
 }
 .conteiner {
@@ -10,9 +11,11 @@
     background-repeat: no-repeat;
     max-width: 1920px;
     padding-top: 200px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
 }
 .wrapper {
-    max-width: 583px;
+    max-width: 900px;
     margin: auto;
 }
 .topHeader {
@@ -20,12 +23,172 @@
     width: 49px;
     height: 47px;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 .working {
-    font-family: 'Lato', sans-serif;
     font-size: 40px;
+    font-weight: 700;
     letter-spacing: 5px;
     color: white;
     text-align: center;
+}
+.work-down {
+    margin-bottom: 15px;
+}
+.helping {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.helpingDown {
+    margin-bottom: 170px;
+}
+.bottomHeader {
+    display: block;
+    margin: auto;
+    width: 16px;
+    height: 28px;
+}
+.aboutUs {
+    color: #606060;
+    border: 1px solid #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+.chapter {
+    width: 240px;
+    font-size: 32px;
+    margin: auto;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+}
+.text {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+.aboutDown {
+    margin-bottom: 20px;
+}
+.bgServices {
+    background-image: url(../img/bgMain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    padding-top: 90px;
+    padding-bottom: 90px; 
+    margin-bottom: 80px;   
+}
+.services {
+    color: white;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.wedo {
+    color: #606060;
+    border: 1px solid #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.chapterWedo {
+    width: 300px;
+    font-size: 32px;
+    margin: auto;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+}
+.icon {
+    display: block;
+    max-width: 79px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.sign {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.textDown {
+    margin-bottom: 100px;
+}
+.topLeft {
+    background-image: url(../img/topLeft.png);    
+}
+.topCenter {
+    background-image: url(../img/topCenter.png);
+}
+.topRight {
+    background-image: url(../img/topRight.png);
+}
+.bottomLeft {
+    background-image: url(../img/bottomLeft.png);
+}
+.bottomCenter {
+    background-image: url(../img/bottomCenter.png);
+}
+.bottomRight {
+    background-image: url(../img/bottomRight.png)
+}
+.left {
+    display: inline-block;
+    width: 28.86%;
+    height: 237px;
+}
+.center {
+    display: inline-block;
+    width: 41.8%;
+    height: 237px;
+}
+.right {
+    display: inline-block;
+    width: 28.86%;
+    height: 237px;
+}
+.photoText {
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 170px;
+    margin-left: 60px;
+    letter-spacing: 5px;
+}
+.photoTop {
+    margin-bottom: 4px;
+}
+.photoBottom {
+    margin-bottom: 140px;
+}
+.foot {
+    color: #606060;
+    border: 1px solid #000000;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.chapterFoot {
+    width: 300px;
+    font-size: 32px;
+    margin: auto;
+    letter-spacing: 8px;
+    margin-bottom: 40px; 
+}
+.textFoot{
+    margin-bottom: 40px;
+}
+.contact {
+    width: 395px;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: none;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
 }
