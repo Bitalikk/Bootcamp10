@@ -13,7 +13,7 @@ ul {
 li {
     display: inline-block;
     padding: 75px 40px;
-    font-size: 14pt;
+    font-size: 14px;
     text-transform: uppercase;
 }
 a:visited {
@@ -45,7 +45,7 @@ img {
 }
 .photo {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 11pt;
+    font-size: 14px;
     color: #c7c1b6;
     text-transform: uppercase;
     margin: 30px 0;
@@ -62,13 +62,13 @@ footer {
 }
 .foot {
     border: 1px solid black;
-    width: 177px;
-    /* height: 60px; */
+    width: 160px;
+    height: 60px;
     margin: auto;
     text-align: center;
-    font-size: 20pt;
+    font-size: 20px;
     padding: 0 15px; 
 }
 a {
-    line-height: 70px;
+    line-height: 60px;
 }
