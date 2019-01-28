@@ -1,0 +1,144 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #555252;
+}
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 45px;
+}
+.menu {
+    margin-bottom: 110px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+}
+h1 {
+    font-weight: 300;
+    font-size: 30px;
+}
+.logo h1::first-letter {
+    color: #1abc9c;
+}
+.logo h1:hover {
+    color: #1abc9c;
+}
+.navigation {
+    width: 540px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: 700;
+    list-style: none;
+    text-transform: uppercase;
+    float: right;
+}
+.navigation a {
+    text-decoration: none;
+    color: #0f0101;
+    float: left;
+}
+.navigation a:not(last-child) {
+    margin-right: 35px;
+}
+.navigation a:hover {
+    color: #1abc9c;
+}
+.chapter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.chapter::after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 30px auto 90px ;
+}
+.chProduct {
+    width: 500px;
+    margin: auto;
+}
+.products li {
+    width: 255px;
+    height: 322px;
+    list-style: none;
+    background-color: #e9f0fd;
+    float: left;
+    /* margin-right: 5px;
+    margin-bottom: 5px; */
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+.products li:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+.products li:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
+.products li:first-child img {
+    width: 270px;
+}
+.products li:nth-child(3) {
+    padding-top: 60px;
+}
+.products li:last-child {
+    padding-top: 100px;
+}
+.products img {
+    display: block;
+    margin: auto;
+}
+.products p {
+    color: #ffffff;
+}
+.buy {
+    display: block;
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.left-buy {
+    width: 201px;
+    height: 40px;
+    float: left;
+    background-color: #323232;
+    text-align: center;
+    line-height: 40px;
+}
+.right-buy {
+    width: 54px;
+    height: 40px;
+    float: right;
+    background-color: #8c8c8c; 
+    text-align: center;
+    line-height: 40px;
+}
+a:hover .left-buy {
+    background-color: #1abc9c;
+}
+a:hover .right-buy {
+    background-color: #7fd9c7;
+}
