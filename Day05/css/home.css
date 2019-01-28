@@ -139,10 +139,10 @@ h1 {
     text-align: center;
     line-height: 40px;
 }
-a:hover .left-buy {
+li:hover .left-buy {
     background-color: #1abc9c;
 }
-a:hover .right-buy {
+li:hover .right-buy {
     background-color: #7fd9c7;
 }
 .news {
