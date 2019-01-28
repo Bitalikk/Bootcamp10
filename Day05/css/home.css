@@ -59,12 +59,16 @@ h1 {
 .navigation a:hover {
     color: #1abc9c;
 }
+.products {
+    margin-bottom: 105px;
+}
 .chapter {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 48px;
     line-height: 32px;
     text-transform: uppercase;
+    margin: auto;
 }
 .chapter::after {
     content: "";
@@ -76,7 +80,6 @@ h1 {
 }
 .chProduct {
     width: 500px;
-    margin: auto;
 }
 .products li {
     width: 255px;
@@ -141,4 +144,56 @@ a:hover .left-buy {
 }
 a:hover .right-buy {
     background-color: #7fd9c7;
+}
+.news {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 80px;
+}
+.news-chapter {
+    width: 350px;
+}
+.news ul {
+    list-style: none;
+}
+.news-list {
+    width: 350px;
+    height: 498px;
+    float: left;
+}
+.news-list img {
+    width: 350px;
+    height: 265px;
+}
+.about {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0f0101;
+}
+.about:after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 4px;
+    background-color: #1abc9c;
+    margin: 15px 0 30px;
+}
+.text {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.news a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    width: 160px;
+    height: 50px;
+    background-color: #4ec6ab;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.news-list:not(:last-child) {
+    margin-right: 30px;
 }
