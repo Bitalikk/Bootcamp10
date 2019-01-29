@@ -2,28 +2,78 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Exo', sans-serif; */
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: auto;
     padding: 175px 0;
 }
+.design {
+    max-width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.wrapperLeft {
+    width: 60%;
+    display: inline-block;
+    margin: auto;
+    background-color: #ffffff;
+    margin-right: -4px;
+}
+.designLeft {
+    min-width: 571px;
+    margin: auto;
+}
+.designLeft h2 {
+    max-width: 532px;
+    text-align: left;
+}
+.designLeft h2::before {
+    content: "New Design";
+    text-transform: uppercase;
+    color: red;
+    display: block;
+    font-size: 16px;
+}
+.designLeft h2::after {
+    content: "....";
+    color: red;
+    margin-left: 10px;
+}
+.designText {
+    color: #282828;
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    max-width: 555px;
+    margin-bottom: 40px;
+}
+.designText:last-child {
+    margin-bottom: 0;
+}
+.designRightSilver {
+    background-color: #eb1010;
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    margin-right: -4px;
+}
+
 .newFeatures {
     max-width: 1200px;
     position: relative;
     background-color: #f6f5f3;
     overflow: hidden;
 }
-.newFeatures h2 {
+.chapter {
     font-family: 'Exo', sans-serif;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 90px;
-
 }
 .newFeatures h2::before {
     content: "New Features";
@@ -57,7 +107,7 @@ font-family: 'Exo', sans-serif; */
 .featuresAbout {
     font-family: 'Exo', sans-serif;
     font-size: 16px;
-    color: ceced0;
+    color: #282828;
 }
 .featuresListItem:not(:last-child) {
     margin-right: 20px;
@@ -70,13 +120,13 @@ font-family: 'Exo', sans-serif; */
 }
 .earphones {
     position: absolute;
-    right: 45px;
+    right: 60px;
     top: -10px;
     overflow: hidden;
 }
 .penHolder {
     position: absolute;
     top: -10px;
-    left: 10px;
+    left: 4px;
     overflow: hidden;
 }

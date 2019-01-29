@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --желтый: #f8e800;
+}
+.wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.conteiner {
+    width: 500px;
+    height: 500px;
+    background-color: var(--желтый);
+}
+.item {
+    width: 500px;
+    height: 500px;
+    background-color: #8b18c0;
+    position: absolute;
+    top: 0;
+    right: -500px;
+    transition: all 2s ease;
+}
+.wrapper:hover .item {
+    /* right: -500px; */
+    transform: translate(-500px);
+    transition: all 2s ease;
+}
