@@ -54,60 +54,48 @@ font-family: 'Roboto', sans-serif; */
 }
 .tours {
     width: 100%;
-    height: 650px;
+    background: linear-gradient(#00000083, #00000083), url(../img/homework/slide4.png);
     text-align: center;
-    background-color: #000000;
-    opacity: 0.5;
-    line-height: 100px;
-    padding-top: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding-top: 220px;
 }
-.toursOpacity {
-    background-image: url(../img/homework/slide4.png);
-    background-repeat: round;
+.toursText {
+    list-style: none;
+    color: #ffffff;
+    display: inline-block;
     width: 100%;
-    height: 650px;
-    position: relative;
+    margin: auto;
 }
-.click {
+.toursText::before {
+    content: "<";
     width: 100px;
     height: 100px;
-    background-color: #1abc9c;
-    color: #ffffff;
-    font-size: 100px;
-    font-weight: 100;
-    margin: auto;
     display: inline-block;
-}
-.leftClick {
-    margin-right: 100px;
-}
-.leftClick img {
-    width: 30px;
-    margin-bottom: 10px;
+    background-color: #1abc9ca9;
+    font-size: 80px;
     text-align: center;
-}
-.centerText {
-    width: 650px;
-    display: inline-block;
     margin-right: 100px;
+    font-weight: 400;
 }
 .bigText {
-    font-size: 60px;
+    display: inline-block;
+    font-size: 50px;
     font-weight: 900;
-    color: #ffffff;
+    margin-bottom: 40px;
+}
 
+.bigText::after {
+    content: ">";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #1abc9ca9;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: 400;
 }
 .text {
     font-size: 24px;
     font-weight: 300;
-    color: #ffffff;
-}
-.rightClick {
-    background-image: url(../img/homework/right.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: center;
+    margin-bottom: 210px;
 }

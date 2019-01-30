@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "test";
+    src: url(../Calligraffitti-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Atomic+Age'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: "test", sans-serif;
+    /* font-family: 'Atomic Age', cursive; */
+    margin: 50%;
+    font-size: 40px;
+}
