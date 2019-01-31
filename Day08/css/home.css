@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Wisdom Script";
+    src: url("../fonts/Wisdom\ Script\ AJ/Wisdom Script AJ.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Droid Serif";
+    src: url("../fonts/DroidSerif/DroidSerif-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+/* font-family: 'Montserrat', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 940px;
+    margin: auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+.logo {
+    font-family: "Wisdom Script", sans-serif;;
+    font-size: 26px;
+    color: #fed136;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 485px;
+    list-style: none;
+}
+.menu li:not(:last-child) {
+    margin-right: 35px;
+}
+.menuItem {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+.menuItem:hover {
+    color: #fed136;
+}
+.chapter {
+    max-width: 100%;
+    margin: auto;
+}
+.theme {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.themeSign {
+    font-family: "Droid Serif", sans-serif;
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+.list {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.listItem {
+    max-width: 290px;
+}
+.listItemSign {
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.iconCommerce::before {
+    content: "";
+    background-image: url("../img/homework/Icon-Basket.png");
+    width: 74px;
+    height: 73px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.iconResponsive::before {
+    content: "";
+    background-image: url("../img/homework/Icon-Laptop.png");
+    width: 74px;
+    height: 73px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.iconSecurity::before {
+    content: "";
+    background-image: url("../img/homework/Icon-Locked.png");
+    width: 74px;
+    height: 73px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.listItemAbout {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+    color: #777777;
+    line-height: 22px;
+    text-align: center;
+}
+.bgImage {
+    background: url("../img/homework/Map\ Image.png"), linear-gradient(#222222, #222222);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-clip: padding-box;
+    width: 100%;
+}
+.bottomSection {
+    padding-top: 110px;
+}
+.bottomSection h2 {
+    color: #ffffff;
+}
+.contactUs {
+    display: flex;
+    justify-content: space-between;
+}
+.leftInput {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.itemText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.leftItem {
+    max-width: 455px;
+}
+.rightInput {
+    width: 50%;
+}
+.rightItem {
+    width: 455px;
+    height: 245px;
+}
+.validation:valid {
+    outline: 3px solid #00ff00;
+}
+.validation:invalid {
+    outline: 3px solid #ff0000;
+}
