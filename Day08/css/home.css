@@ -145,10 +145,7 @@
 .bottomSection h2 {
     color: #ffffff;
 }
-.contactUs {
-    display: flex;
-    justify-content: space-between;
-}
+
 .leftInput {
     width: 50%;
     display: flex;
@@ -168,19 +165,34 @@
 .leftItem {
     max-width: 455px;
 }
+.inputBox {
+    display: flex;
+}
 .rightInput {
+    display: flex;
     width: 50%;
+}
+.contactUs {
+    text-align: center;
 }
 .rightItem {
     width: 455px;
     height: 245px;
 }
-.validation:valid:not(:focus):not(:placeholder-shown) {
+.validation:valid:not(:placeholder-shown) {
     outline: 3px solid #00ff00;
 }
 .validation:invalid:not(:placeholder-shown) {
     outline: 3px solid #ff0000;
 }
-.validation:not(:placeholder-shown) { 
-    outline: none;
+.submit {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 80px;
+    background-color: #fed136;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 115px;
+    border-radius: 5px;
 }
