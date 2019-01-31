@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper {
+    background-color: #ffffff;
+    max-width: 480px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+.topMenu {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    text-decoration: none;
+    color: #325dae;
+    font-size: 1.5rem;
+}
+.menu {
+    max-width: 24px;
+    max-height: 15px;
+}
+.jump {
+    display: flex;
+    background-image: url(../img/123/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3.7rem;
+    justify-content: center;
+}
+.jumpText {
+    width: 100%;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.album, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text {
+    padding: 3rem;
+    width: 100%;
+    background-color: #ffffff;
+}
+.chapter {
+    color: #252525;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    max-height: 320px;
+}
+.sign {
+    margin-bottom: 2.5rem;
+}
+.album img {
+    margin-right: 1.5rem;;
+}
+.albumRight {
+    background-image: url(../img/123/cd.png);
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 320px;
+}
+.albumButton {
+    flex-wrap: wrap-reverse;
+}
+.discoLeft {
+    background-image: url(../img/123/disco.png);
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 320px;
+}
+.discoRight .chapter {
+    font-size: 35px;
+}
+.follow {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+}
+.social {
+    font-size: 0.7rem;
+}
+.event {
+    width: 100%
+}
+.eventChapter {
+    font-size: 3rem;
+    font-weight: 200;
+}
+.eventSign {
+    font-size: 0.8rem;
+}
