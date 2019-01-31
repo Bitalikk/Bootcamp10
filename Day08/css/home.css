@@ -175,9 +175,12 @@
     width: 455px;
     height: 245px;
 }
-.validation:valid {
+.validation:valid:not(:focus):not(:placeholder-shown) {
     outline: 3px solid #00ff00;
 }
-.validation:invalid {
+.validation:invalid:not(:placeholder-shown) {
     outline: 3px solid #ff0000;
+}
+.validation:not(:placeholder-shown) { 
+    outline: none;
 }
