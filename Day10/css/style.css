@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topMenu {
+    background-color: #24242c;
+    padding: 10px 30px;
+}
+.wrapper {
+    margin: auto;
+    text-align: center;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.topMenu p {
+    color: grey;
+}
+.luxo {
+    background-color: #e0ad2f;
+    padding: 100px 50px; 
+}
+.luxo h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.luxo p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.btn a {
+    display: block;
+    line-height: 40px;
+    width: 150px;
+    background-color: #24242c;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+.offer {
+    padding: 20px 40px;
+    margin: auto;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.bg {
+    background-color: #000000;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.menu li {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu h3 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.menu p {
+    font-size: 12px;
+    color: #97999b;
+    margin-bottom: 22px;
+}
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu a {
+    text-decoration: none;
+    background-color: #24242c;
+    color: #e0ad2f;
+    display: block;
+    line-height: 35px;
+    width: 120px;
+    margin: auto;
+}
+.life {
+    background-color: #47474e;
+    padding: 100px 50px;
+}
+.life h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+span {
+    color: #e0ad2f;
+}
+.life a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: #e0ad2f;
+    margin: auto;
+    color: #000000;
+}
+.size {
+    width: 250px;
+    margin: auto;
+}
+.text {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.aqurium {
+    width: 100%;
+    height: 200px;
+    background-color: #97999b;
+}
+.social ul {
+    background-color: #24242c;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+@media (min-width: 768px) {
+    .topMenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu li {
+        width: 30%;
+    }
+    .king {
+        display: flex;
+    }
+    .reverce {
+        flex-direction: row-reverse;
+    }
+    .text {
+        width: 50%;
+    }
+    .aqurium {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .reverce {
+        flex-direction: row;
+    }
+    .chess {
+        display: flex;
+    }
+    .king {
+        display: flex; 
+        width: 50%;
+       }
+}

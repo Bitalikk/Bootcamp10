@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper {
+    text-align: center;
+    margin: auto;
+}
+.topMenu {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #161f32;
+}
+.bgTop {
+    background-color: #546279;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+}
+.bgTopDark {
+    background-color: #222c40;
+    padding: 0 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.bgTop h2 {
+    font-size: 30px;
+    max-width: 50%;
+    margin: auto;
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px;
+}
+.bgTop .arrow {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.line {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.bgTop .circle {
+    background-color: #3d506f;
+    border: 1px solid white;
+}
+.bgTop p {
+    font-size: 10px;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.purshase {
+    vertical-align: bottom;
+    width: 110px;
+    border: 1px solid white;
+    margin: auto;
+}
+.bgTop a {
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.layerd {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    color: #3d506f;
+}
+.layerdTop {
+    position: relative;
+}
+.layerdTop h2 {
+    max-width: 480px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service {
+    padding-bottom: 10px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.layerd .arrow {
+    width: 100%;
+    height: 1px;
+    background-color: #3d506f;
+}
+.layerd .circle {
+    background-color: white;
+    border: 1px solid #3d506f;
+}
+.text {
+    font-size: 12px;
+}
+.layerdTop .text {
+    margin-bottom: 20px;
+}
+.web .text {
+    margin-bottom: 10px;
+}
+.bgCircle {
+    border: 1px solid #3d506f;
+    border-radius: 50%;
+    background-color: #3d506f;
+    width: 107px;
+    height: 107px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 35px 0;
+}
+.web {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.web .text {
+    max-width: 260px;
+}
+.web img {
+    display: block;
+    margin: auto;
+}
+.support {
+    max-width: 39px;
+    height: auto;
+}
+.layerdItem {
+    width: 48%;
+}
+.watson {
+    
+}

@@ -41,7 +41,7 @@
     text-transform: uppercase;
     text-align: center;
 }
-.album, .days {
+.album, .days, .data {
     display: flex;
     flex-wrap: wrap;
 }
@@ -91,12 +91,39 @@
     font-size: 0.7rem;
 }
 .event {
-    width: 100%
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 160px;
 }
 .eventChapter {
-    font-size: 3rem;
-    font-weight: 200;
+    width: 100%;
+    font-size: 2.7rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
 }
 .eventSign {
+    width: 100%;
+    font-size: 0.8rem;
+}
+.data {
+    height: 160px;
+    background-color: #ffffff;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.big {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.small {
     font-size: 0.8rem;
 }
