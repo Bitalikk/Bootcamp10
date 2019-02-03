@@ -468,9 +468,11 @@ nav {
 .happyLeft {
     display: inline-block;
     width: 460px;
+    margin-right: 80px;
 }
 .happyLeft p {
     font-size: 22px;
+    font-weight: 700;
     text-transform: uppercase;
     color: #413d4b;
     margin-bottom: 35px;
@@ -509,11 +511,153 @@ nav {
 }
 .happyRight p {
     font-size: 22px;
+    font-weight: 700;
     text-transform: uppercase;
     color: #413d4b;
+    margin: auto;
     margin-bottom: 35px;
 }
 .happyRight img {
+    display: block;
+}
+.shop {
+    list-style: none;
+    margin: auto;
+}
+.shopItem {
     display: inline-block;
-    margin-right: 40px;
+    width: 162px;
+    height: 70px;
+    margin: auto;;
+    margin-bottom: 23px;
+}
+.shopItem:not(:nth-child(even)) {
+    margin-right: 60px;
+}
+.foot {
+    width: 100%;
+    background-image: linear-gradient(to right, #30274ec2, #30274ec2, #30274ec2), url(../img/main/bgFooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 55px;
+    color: #ffffff;
+    padding: 55px 0 70px;
+}
+.help {
+    display: inline-block;
+    width: 310px;
+    height: 258px;
+    margin: auto;
+}
+.help .logo {
+    float: none;
+}
+.helpAbout {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    width: 283px;
+    margin-bottom: 80px;
+    line-height: 26px;
+}
+.privacy {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+.privacy:not(:last-child) {
+    margin-right: 30px;
+}
+.contact {
+    vertical-align: top;
+}
+.studio {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    
+}
+.help address {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 26px;
+    width: 237px;
+}
+.help address::before {
+    content: "";
+    background-image: url(../img/main/loc.png);
+    background-size: cover;
+    width: 14px;
+    height: 19px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.tel {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 26px;
+}
+.tel::before {
+    content: "";
+    background-image: url(../img/main/tel.png);
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.help form {
+    max-width: 310px;
+    max-height: 55px;
+    margin-bottom: 30px;
+}
+.help input {
+    background-color: #ffffff00;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #beb7d6;
+    display: block;
+    margin-right: 10px;
+    float: left;
+}
+.send {
+    text-decoration: none;
+    width: 70px;
+    height: 50px;
+    background-color: #ffffff8a;
+    text-align: center;
+    display: block;
+    padding: 12.5px; 
+    float: left;
+}
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.social {
+    list-style: none;
+}
+.socialItem {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 70px;
+}
+.copy {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
 }
