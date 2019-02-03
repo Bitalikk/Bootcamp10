@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    /* outline: 1px solid red; */
 }
-/* font-family: 'Playfair Display', serif; */
 .top {
     width: 100%;
     background-image: linear-gradient(to right, #30274ec2, #30274ec2, #30274ec2), url(../img/header/bg.png);
@@ -539,7 +537,6 @@ nav {
     background-image: linear-gradient(to right, #30274ec2, #30274ec2, #30274ec2), url(../img/main/bgFooter.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 55px;
     color: #ffffff;
     padding: 55px 0 70px;
 }
