@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .wrapper {
-    width: 1250px;
+    max-width: 1250px;
     margin: auto;
     padding-top: 30px;
 }
@@ -27,8 +27,8 @@
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    width: 500px;
-    justify-content: space-between;
+    width: 40%;
+    justify-content: space-around;
 }
 .menuItem a {
     text-decoration: none;
@@ -37,6 +37,9 @@
 .menuItem:hover a {
     color: #f38181;
     border-bottom: 2px solid #f38181;
+}
+.amazing {
+    padding-left: 60px;
 }
 .chapter, .chapter2 {
     font-size: 30px;
@@ -74,6 +77,61 @@
 .servicesItem {
     width: 28%;
     margin-bottom: 100px;
+    position: relative;
+}
+.photo::before {
+    content: "";
+    background-image: url(../img/homework/ALARM.png);
+    width: 2.56;
+    height: 31px;
+    display: block;
+    position: absolute;
+    left: -60px;
+}
+.design::before {
+    content: "";
+    background-image: url(../img/homework/LINE\ GRAPH.png);
+    width: 32px;
+    height: 31px;
+    display: block;
+    position: absolute;
+    left: -60px;
+}
+.creativity::before {
+    content: "";
+    background-image: url(../img/homework/COMPUTER\ _\ OK.png);
+    width: 2.56%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: -60px;
+}
+.seo::before {
+    content: "";
+    background-image: url(../img/homework/BOOK\ 2.png);
+    width: 2.56%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: -60px;
+}
+.css::before {
+    content: "";
+    background-image: url(../img/homework/HOME.png);
+    width: 2.56%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: -60px;
+}
+.digital::before {
+    content: "";
+    background-image: url(../img/homework/IMAGE.png);
+    width: 2.56%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: -60px;
 }
 .servicesChapter {
     font-family: 'Montserrat', sans-serif;
@@ -89,6 +147,9 @@
     line-height: 24px;
     color: #999999;
 }
+.meet {
+    margin-bottom: 90px;
+}
 .chapter2::before {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -103,4 +164,62 @@
     color: #999999;
     text-align: center;
     margin: auto;
+    margin-bottom: 100px;
+}
+.meetList {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.meetCart {
+    width: 27%;
+}
+.wrapPhoto {
+    position: relative;
+    width: 100%;
+    background-color: #f3818144;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.meetBg {
+    background-color: #5bd6c0;
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.meetPhoto {
+    display: block;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    
+}
+
+.meetPhoto:hover {
+    transform: translate(-10px, -10px);
+    transition: all 200ms linear;
+    box-shadow: 10px 10px blue;
+}
+
+.meetName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.meetAbout {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #999999;
 }

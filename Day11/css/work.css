@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+.wrapper {
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+}
+.top {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#0000009a, #0000009a), url(../img/work/BackgroundTopImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+}
+.topNav {
+    margin-bottom: 50px;
+}
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: #fed136;
+    margin-bottom: 0.5rem;
+}
+.topMenu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.topMenuItem a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.topMenuItem a:hover {
+    color: #fed136;
+}
+.welcom {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.welcom::before {
+    content: "Welcome To Our Studio!";
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.welcomButton {
+    width: 200px;
+    line-height: 60px;
+    background-color: #fed136;
+    border-radius: 5px;
+    margin: auto;
+}
+.welcomButton a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.services {
+    width: 100%;
+    padding: 20px;
+}
+.chapter {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sign {
+    font-size: 16px;
+    font-style: italic;
+    color: #777777;
+    margin-bottom: 40px;
+}
+.servicesList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.servicesListItem {
+    width: 100%;
+}
+.commerce::before {
+    content: "";
+    display: block;
+    background-image: url(../img/work/Icon-Basket.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 68px;
+    height: 67px;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.web::before {
+    content: "";
+    display: block;
+    background-image: url(../img/work/Icon-Laptop.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 68px;
+    height: 67px;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.security::before {
+    content: "";
+    display: block;
+    background-image: url(../img/work/Icon-Locked.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 68px;
+    height: 67px;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.itemSign {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.itemAbout {
+    max-width: 360px;
+    font-size: 14px;
+    color: #777777;
+    margin: auto;
+    margin-bottom: 20px;
+}  
+.portfolioPhoto {
+    width: 100%;
+    margin-bottom: 20px;
+}

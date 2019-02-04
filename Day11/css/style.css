@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#blueviolet {
+    width: 100%;
+    height: 96.5vh;
+    background-color: blueviolet;
+}
+#brown {
+    width: 100%;
+    height: 96.5vh;
+    background-color: brown;
+}
+#yellow {
+    width: 100%;
+    height: 96.5vh;
+    background-color: yellow;
+}
+a {
+    margin-right: 15px;
+}
+.contein {
+    width: 500px;
+    height: 500px;
+    background-color: lawngreen;
+}
+.conteinLeft {
+    background-color: aqua;
+    width: 200px;;
+    height: 200px;
+    display: none;
+}
+.conteinRight {
+    background-color: blue;
+    width: 200px;;
+    height: 200px;
+}
+#check:checked ~ .conteinLeft {
+    display: block;
+}
+.hide {
+    display: none;
+}
