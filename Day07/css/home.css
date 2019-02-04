@@ -82,7 +82,7 @@
 .photo::before {
     content: "";
     background-image: url(../img/homework/ALARM.png);
-    width: 2.56;
+    width: 32px;
     height: 31px;
     display: block;
     position: absolute;
@@ -100,8 +100,8 @@
 .creativity::before {
     content: "";
     background-image: url(../img/homework/COMPUTER\ _\ OK.png);
-    width: 2.56%;
-    height: auto;
+    width: 32px;
+    height: 31px;
     display: block;
     position: absolute;
     left: -60px;
@@ -109,8 +109,8 @@
 .seo::before {
     content: "";
     background-image: url(../img/homework/BOOK\ 2.png);
-    width: 2.56%;
-    height: auto;
+    width: 32px;
+    height: 31px;
     display: block;
     position: absolute;
     left: -60px;
@@ -118,8 +118,8 @@
 .css::before {
     content: "";
     background-image: url(../img/homework/HOME.png);
-    width: 2.56%;
-    height: auto;
+    width: 32px;
+    height: 31px;
     display: block;
     position: absolute;
     left: -60px;
@@ -127,8 +127,8 @@
 .digital::before {
     content: "";
     background-image: url(../img/homework/IMAGE.png);
-    width: 2.56%;
-    height: auto;
+    width: 32px;
+    height: 31px;
     display: block;
     position: absolute;
     left: -60px;
@@ -183,30 +183,48 @@
 
 }
 .meetBg {
-    background-color: #5bd6c0;
+    background: linear-gradient(to bottom, #ee898bd2, #f1da89e5);
     position: absolute;
     top: 0; 
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index:9999;
+    display: none;
+    padding-top: 180px;
+    padding-left: 60px;
 }
-
-
 .meetPhoto {
     display: block;
     position: relative;
     z-index: 999;
     width: 100%;
-    height: auto;
-    
+    height: auto;  
 }
-
-.meetPhoto:hover {
+.meetCart:hover .meetBg {
+    display: block;
     transform: translate(-10px, -10px);
     transition: all 200ms linear;
-    box-shadow: 10px 10px blue;
 }
 
+.meetCart:hover .meetPhoto {
+    transform: translate(-10px, -10px);
+    transition: all 200ms linear;
+    box-shadow: 10px 10px #5bd6c0;
+}
+.social {
+    display: flex;
+    margin: auto;
+}
+.socialIcon {
+    width: 56px;
+    height: 56px;
+    background-color: #f1da89;
+    text-align: center;
+    padding-top: 15px;
+}
+.socialIcon:hover {
+    background-color: #95e1d3;
+}
 .meetName {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -222,4 +240,38 @@
     font-style: italic;
     text-align: center;
     color: #999999;
+}
+.line {
+    width: 1250px;
+    height: 2px;
+    background-color: #e5e5e5;
+    margin-bottom: 15px;
+}
+.foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot p {
+    font-size: 14px;
+}
+.foot span {
+    color: red;
+}
+.foot form {
+    margin-bottom: 15px;
+}
+.mail {
+    width: 230px;
+    line-height: 40px;
+    padding-left: 15px;
+    margin-right: -4px;
+}
+.send {
+    width: 150px;
+    height: 44px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #95e1d3;
 }
