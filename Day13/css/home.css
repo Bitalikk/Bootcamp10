@@ -1,0 +1,57 @@
+.sign {
+    width: 100%;
+    height: 542px;
+    background-image: linear-gradient(#0000008c, #0000008c), url(../img/homework/Vector\ Smart\ Object@1X.png);
+    background-repeat: round;
+    color: #ffffff;
+}
+.logo-col {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+
+}
+.signPad {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.signBoxBtn {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.signLog {
+    display: inline-block;
+}
+.signBtn {
+    font-size: 14px;
+    width: 90px;
+    height: 35px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.signShare {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.signFind {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.signBigBtn {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+}
