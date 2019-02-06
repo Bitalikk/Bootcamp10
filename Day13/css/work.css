@@ -1,0 +1,116 @@
+.mission {
+    background-color: #bdb8ba;
+    height: 800px;
+    width: 100%;
+}
+.mission-center {
+    align-items: center;
+    padding-top: 15px;
+}
+.missionSome {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.missionSome::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+    margin: 50px auto;
+}
+.missionSomeBox {
+    padding-top: 170px;
+}
+.missionChapter {
+    font-size: 45px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.missionBtn {
+    width: 230px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #bdb8ba;
+    border-radius: 0%;
+    text-transform: uppercase;
+}
+.download {
+    background-color: #000000;
+    padding: 50px 0;
+}
+.downloadLine {
+    align-items: center;
+}
+.downloadText {
+    font-size: 13px;
+    color: #ffffff;
+}
+.downloadBtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+.beginning {
+    background-color: #ffffff;
+}
+.beginningLeft {
+    text-align: left;
+    padding: 80px 0;
+}
+.beginningLeftChapter {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.beginningLeftSign {
+    font-size: 13px;
+    color: #777777;
+    text-transform: uppercase;
+}
+.beginningLeftSign::after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+    margin: 25px 0 50px 0;
+}
+.beginningLeftAbout {
+    font-size: 13px;
+    line-height: 25px;
+    color: #777777;
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+.beginningBtn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 0%;
+}
+.beginningRight {
+    width: 100%;
+    height: 570px;
+    background-color: #b3b3b3;
+}
+.video {
+    background-color: #242424;
+    height: 580px;
+}
+.videoBox {
+    text-align: center;
+    padding-top: 230px;
+}
+.videoText {
+    font-size: 23px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 45px;
+}
