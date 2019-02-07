@@ -1,0 +1,12 @@
+.icon {
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    fill: blueviolet
+}
+.icon:hover {
+    fill: brown;
+    background-color: rgb(16, 235, 8);
+}
