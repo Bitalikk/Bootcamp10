@@ -6,7 +6,7 @@
 .bgTop {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom, #e98282dc, #f1d98adc), url(../img/Layer\ 15-min.png);
+    background-image: linear-gradient(to bottom, #e98282dc, #f1d98adc), url(../img/Layer15.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,15 +118,68 @@
     line-height: 24px;
     color: #999999;
 }
-
-
-
+.team {
+    padding: 0 20px;
+}
+.team-about {
+    margin-bottom: 100px;
+}
+.team-list {
+    flex-direction: column;
+    align-items: center;
+}
+.team-cart {
+    flex-basis: 260px;
+    max-width: 383px;
+}
+.team-cart__photo {
+    width: 100%;
+    position: relative;
+}
+.team-cart__img {
+    width: 100%;
+}
+.team-cart__gradient {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #ef898bb7, #f1d787b7);
+}
+.social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-btn {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-top: 15px;
+    padding-left: 20px; */
+    background-color: #fce38a;
+}
+.icon-size {
+    /* width: 32px;
+    height: 30.5px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .bgTop {
-        background-image: linear-gradient(to bottom, #e98282dc, #f1d98adc), url(../img/Layer\ 15@2x-min.png);
+        background-image: linear-gradient(to bottom, #e98282dc, #f1d98adc), url(../img/Layer15@2x.png);
     }
 }
 @media (min-width: 768px) {
